@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/beyaz"
+        tools:context=".MainActivity">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="48sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerInParent="true"
+            android:id="@+id/txt_Text"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:id="@+id/btn_change"
+            android:text="Değiştir"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="@color/beyaz"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_below="@id/txt_Text"
+            android:layout_marginTop="24dp"
+    />
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+
+    >
+
+        <Button android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_fizz"
+                android:text="Fizz"
+                android:background="@color/red"
+                android:textColor="@color/beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+        />
+
+        <Button android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_buzz"
+                android:text="Buzz"
+                android:background="@color/mavi"
+                android:textColor="@color/beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginStart="16dp"
+
+        />
+
+        <Button android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_fizzBuzz"
+                android:text="FizzBuzz"
+                android:background="@color/colorAccent"
+                android:textColor="@color/beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginStart="16dp"
+
+        />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
